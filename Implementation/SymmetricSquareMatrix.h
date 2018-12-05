@@ -18,8 +18,8 @@ class SymmetricSquareMatrix{
             _numColums = d[0].size();
         }
         SymmetricSquareMatrix(){}
-        SymmetricSquareMatrix(const SymmetricSquareMatrix &);
-        ~SymmetricSquareMatrix();
+        // SymmetricSquareMatrix(const SymmetricSquareMatrix 
+        ~SymmetricSquareMatrix(){};
         double getElementOfMatrix(int i, int j){
             return _data[i][j];
         }
