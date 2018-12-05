@@ -20,7 +20,7 @@ class ReorderingSSM {
 
         // class methods
         vector<int> CuthillMckee();
-        vector<int> ReverseCuthillMukee();
+        vector<int> ReverseCuthillMckee();
         void sparsification();
         vector<double> degreeGenerator();
 

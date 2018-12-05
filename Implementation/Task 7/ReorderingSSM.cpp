@@ -60,7 +60,6 @@ for(int i=0;i<v.size();i++)out<<v[i]<<' ';return out;}
 vector<int> ReorderingSSM::CuthillMckee(){
     vector<double> degrees = degreeGenerator();
     ::globalDegree = degrees;
-    cout << degrees<< endl;
     sparsification();
     queue<int> Q;
     vector<int> R;
@@ -88,8 +87,7 @@ vector<int> ReorderingSSM::CuthillMckee(){
     return R;
 }
 
-
-vector<int> ReorderingSSM::ReverseCuthillMukee(){
+vector<int> ReorderingSSM::ReverseCuthillMckee(){
     vector<int> cuthill = CuthillMckee();
     int n = cuthill.size();
     if(n%2 == 0) n -= 1;
