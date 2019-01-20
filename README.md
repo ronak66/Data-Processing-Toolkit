@@ -221,5 +221,6 @@ The project is done by a group of 6 members. Each group member has performed one
 5. [`Swasti Shreya`](https://github.com/swastishreya) : Performed Task 6
 6. [`Ronak Doshi`](https://github.com/ronak66) : Performed Task 7
 
-
+Published an article on Geek-For-Geeks platform on Reverse Cuthill Mckee Algorithm.
+[https://www.geeksforgeeks.org/reverse-cuthill-mckee-algorithm/](https://www.geeksforgeeks.org/reverse-cuthill-mckee-algorithm/)
 
